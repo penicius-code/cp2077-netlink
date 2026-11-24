@@ -3,6 +3,8 @@
 Opens an in-game computer screen straight in the player's Kiroshi optics in Cyberpunk 2077: one key, and the screen floats in view on foot and in cars, with an optional screen dimmer. Single-player only.
 Version 1.7.1 | For game version 2.5 | Status: 1.1.0 and 1.3.0 used in game on 2.31; 1.7.0 failed its in-game test on 2.5; 1.7.1 in use in my game and working; no written test record
 
+**Download:** [latest release](https://github.com/penicius-code/cp2077-netlink/releases/latest) (zip; install steps below)
+
 > This is an unofficial fan work and is not approved/endorsed by CD PROJEKT RED. No game files are included.
 
 <img src="docs/media/netlink-home.png" width="720" alt="The NetLink home screen with the sites installed on the test setup">
@@ -59,7 +61,7 @@ To build the archive you also need Python 3, WolvenKit CLI 9.1.0, and the two so
 Not tested from this repository; these steps describe the layout the mod was developed with.
 
 1. Install the requirements above.
-2. Copy the contents of `package/` into the game folder, so that `bin\x64\plugins\cyber_engine_tweaks\mods\CyberslopKiroshiNetLink\init.lua` exists.
+2. Download the zip from the [latest release](https://github.com/penicius-code/cp2077-netlink/releases/latest) (the same files as `package/` in this repository) and extract it into the game folder, so that `bin\x64\plugins\cyber_engine_tweaks\mods\CyberslopKiroshiNetLink\init.lua` exists.
 3. Build the archive:
    - Install WolvenKit CLI 9.1.0 so that `%LOCALAPPDATA%\Programs\WolvenKit.Console\9.1.0\WolvenKit.CLI.exe` exists (the path the script uses).
    - Serialize two files to JSON with WolvenKit and put them in `tools\source\`: `tablet_computer.ent.json`, from `tablet_computer.ent` of the mod Computer Anywhere by Deceptious, and `tablet_c_neo_military.mesh.json`, from the game's `base\environment\decoration\electronics\devices\tablet\tablet_c_neo_military.mesh`.
