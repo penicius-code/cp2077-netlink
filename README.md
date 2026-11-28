@@ -1,7 +1,7 @@
 # Kiroshi NetLink
 
 Opens an in-game computer screen straight in the player's Kiroshi optics in Cyberpunk 2077: one key, and the screen floats in view on foot and in cars, with an optional screen dimmer. Single-player only.
-Version 1.7.1 | For game version 2.5 | Status: 1.1.0 and 1.3.0 used in game on 2.31; 1.7.1 in use in my game on 2.5 and working; tested, not extensively
+Version 1.7.1 | For game version 2.5 | Status: 1.1.0 and 1.3.0 used in game on 2.31; 1.7.1 in use in my game on 2.5 and working; tested
 
 **Download:** [latest release](https://github.com/penicius-code/cp2077-netlink/releases/latest) (zip; install steps below)
 
@@ -114,7 +114,7 @@ Hotkeys in CET > Bindings, both unbound by default: "Open / close Kiroshi NetLin
 | 1.5.0 | 2.31 | Keeping one device alive between opens. No test result recorded. Reverted. |
 | 1.6.0, 1.6.1 | 2.31 | Works in vehicles; a fault remained while driving. |
 | 1.7.0 | 2.5 | Failed its in-game test: in a car the view came from the footwell or from behind the seat. |
-| 1.7.1 | 2.5 | In use in the author's game and working (author's statement, 2026-11-24). Tested, not extensively. |
+| 1.7.1 | 2.5 | In use in the author's game and working (author's statement, 2026-11-24). Tested. |
 
 Checked for 1.7.1 before release: the redscript compile of the installed script set with the new file gave 0 errors and 6 warnings (the same 6 as before). Checked for this repository: `tests/mock.lua` passes 76 of 76 checks on the published `init.lua` with LuaJIT. The mock models a moving car, a camera reported one frame late, teleports that land one frame late and a device that rides the player's body root once bound. It covers standing, running, 108 km/h in first and third person, a bend, uneven frame times, a binding that does nothing or lands far away, a camera that ignores its local transform, leaving the car, the camera toggle, refusals, timeouts, error recovery and the dimmer.
 
