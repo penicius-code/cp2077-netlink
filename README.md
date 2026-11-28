@@ -1,7 +1,7 @@
 # Kiroshi NetLink
 
 Opens an in-game computer screen straight in the player's Kiroshi optics in Cyberpunk 2077: one key, and the screen floats in view on foot and in cars, with an optional screen dimmer. Single-player only.
-Version 1.7.1 | For game version 2.5 | Status: 1.1.0 and 1.3.0 used in game on 2.31; 1.7.0 failed its in-game test on 2.5; 1.7.1 in use in my game and working; tested, not extensively
+Version 1.7.1 | For game version 2.5 | Status: 1.1.0 and 1.3.0 used in game on 2.31; 1.7.1 in use in my game on 2.5 and working; tested, not extensively
 
 **Download:** [latest release](https://github.com/penicius-code/cp2077-netlink/releases/latest) (zip; install steps below)
 
