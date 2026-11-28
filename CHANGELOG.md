@@ -9,7 +9,7 @@ Versions 1.0.0 to 1.6.1 were built and used on game version 2.31; 1.7.0 and 1.7.
 - Getting in or out of a vehicle, or switching the vehicle camera, closes the screen.
 - If the binding does not hold, the device falls back to the per-frame follow of 1.6.1, with the same line-up.
 
-In use in the author's game and working; no written test record.
+In use in the author's game and working; tested, not extensively.
 
 ## 1.7.0 - 2026-11-23
 ### Changed
